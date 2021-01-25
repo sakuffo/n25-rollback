@@ -28,5 +28,5 @@ jobs:
 workflows:
   cci_workflow:
     jobs:
-      - create_infrastructure
+      - create_infrastructure:
           context: udacity-items
